@@ -28,3 +28,8 @@ jobs:
           python test.py
       env:
         TF_VAR_TENANT_ID: "hello world"
+        TF_VAR_APPLICATION_ID: "swe" 
+        TF_VAR_SP_SECRET: "zre"
+        TF_VAR_SUBSCRIPTION_ID: "xyz"
+        TF_RG_NAME : "samplerg"
+        TF_WS_NAME : "machinelearning123w"
