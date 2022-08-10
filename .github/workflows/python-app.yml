@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: execute py script # run the run.py to get the latest data
       run: |
-          python workspace-nonpublic.py
+          python test.py
