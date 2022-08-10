@@ -9,4 +9,11 @@ def get_env(name: str, required: bool = True, default_val: str = ""):
         raise ValueError(f"{name} is a required environment variable")
     return val
 TF_VAR_TENANT_ID = get_env("TF_VAR_TENANT_ID")
-print(TF_VAR_TENANT_ID)
+TF_VAR_TENANT_ID = get_env("TF_VAR_TENANT_ID")
+TF_VAR_APPLICATION_ID = get_env("TF_VAR_APPLICATION_ID")
+TF_VAR_SP_SECRET = get_env("TF_VAR_SP_SECRET")
+sub_id = get_env("TF_VAR_SUBSCRIPTION_ID")
+rg_name = get_env("TF_RG_NAME")
+rg_name = get_env("TF_WS_NAME")
+print(rg_name)
+print(rg_name)
